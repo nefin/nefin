@@ -1,0 +1,12 @@
+Package: nefin
+Type: Package
+Title: Download financial data from NEFIN website. <http://www.nefin.com.br>
+Version: 0.1.1
+Author: Elias Cavalcante, Renato de Souza Neto
+Maintainer: Renato de SOuza Neto <renato.souza.neto@usp.br>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
