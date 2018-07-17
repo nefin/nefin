@@ -81,7 +81,7 @@ site_data <- function(data
     curl_download(url[[data]][[category]], destfile)
     if (data == "portfolios") {
         sht <- paste(portfolio, "Weighted Returns")
-        data_set <- read_excel(destfile, sht)
+        data_set <- read_excel(destfile, sht, col_types = "numeric")
     } else {
         data_set <- read_excel(destfile)
     }
