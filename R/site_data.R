@@ -149,5 +149,16 @@ site_data <- function(data
             data_set$day <- NULL
         }
     }
+    
+    columns = colnames(data_set)
+    columns = gsub("Industry_1", "Basic_Produts", columns)
+    columns = gsub("Industry_2", "Construction", columns)
+    columns = gsub("Industry_3", "Consumer", columns)
+    columns = gsub("Industry_4", "Energy", columns)
+    columns = gsub("Industry_5", "Finance", columns)
+    columns = gsub("Industry_6", "Manufacturing", columns)
+    columns = gsub("Industry_7", "Other", columns)
+    colnames(data_set) <- columns
+    
     return(data_set)
 }
