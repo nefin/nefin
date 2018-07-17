@@ -151,7 +151,7 @@ site_data <- function(data
     }
     
     columns = colnames(data_set)
-    columns = gsub("Industry_1", "Basic_Produts", columns)
+    columns = gsub("Industry_1", "Basic_Products", columns)
     columns = gsub("Industry_2", "Construction", columns)
     columns = gsub("Industry_3", "Consumer", columns)
     columns = gsub("Industry_4", "Energy", columns)
